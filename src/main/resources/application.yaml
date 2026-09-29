@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: game
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic: POSITIONAL_UPDATE_BLUE
+  consumer:
+    group-id: my-consumer-group
